@@ -1,0 +1,94 @@
+body {  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    background-color: #ffffff;  
+    color: #37352f;  
+    line-height: 1.4;  
+    font-size: 14px;  
+}  
+.topbar {  
+    display: flex;  
+    align-items: center;  
+    padding: 8px 16px;  
+    background-color: #ffffff;  
+    border-bottom: 1px solid #e0e0e0;  
+    position: sticky;  
+    top: 0;  
+    z-index: 1000;  
+}  
+.logo {  
+    font-size: 18px;  
+    font-weight: bold;  
+    color: #37352f;  
+    margin-right: 16px;  
+}  
+.search-container {  
+    flex-grow: 1;  
+}  
+.search-box {  
+    width: 100%;  
+    padding: 5px 8px;  
+    font-size: 13px;  
+    border: 1px solid #e0e0e0;  
+    border-radius: 3px;  
+    outline: none;  
+    box-sizing: border-box;  
+    background-color: #f7f7f7;  
+}  
+.search-box:focus {  
+    background-color: #fff;  
+    border-color: #b3b3b3;  
+}  
+.search-results {  
+    max-width: 550px;  
+    margin: 16px auto;  
+    padding: 0 16px;  
+}  
+.result-item {  
+    margin-bottom: 16px;  
+    padding-bottom: 12px;  
+    border-bottom: 1px solid #e0e0e0;  
+}  
+.result-item:last-child {  
+    border-bottom: none;  
+    margin-bottom: 0;  
+    padding-bottom: 0;  
+}  
+.user-info {  
+    display: flex;  
+    align-items: center;  
+    margin-bottom: 4px;  
+}  
+.user-avatar {  
+    width: 40px;  
+    height: 40px;  
+    border-radius: 50%;  
+    margin-right: 8px;  
+}  
+.user-name-id {  
+    display: flex;  
+    flex-direction: column;  
+}  
+.user-name {  
+    font-weight: 600;  
+    font-size: 14px;  
+}  
+.user-id {  
+    color: #787774;  
+    font-size: 12px;  
+}  
+.tweet-time {  
+    font-size: 12px;  
+    color: #787774;  
+    margin-bottom: 4px;  
+}  
+.tweet-content {  
+    font-size: 14px;  
+    color: #37352f;  
+    margin: 0;  
+    word-wrap: break-word;  
+    overflow-wrap: break-word;  
+    white-space: pre-wrap;  
+    max-width: 100%;  
+}

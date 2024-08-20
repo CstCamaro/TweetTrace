@@ -1,0 +1,37 @@
+{
+    "manifest_version": 3,
+    "name": "Tweet Trace",
+    "version": "1.0",
+    "description": "TweetTrace is a free and open-source Chrome extension that records tweets you visit",
+    "minimum_chrome_version": "116",
+    "background": {
+        "service_worker": "js/service-worker.js"
+    },
+    "side_panel": {
+        "default_path": "html/sidepanel.html"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "js/content-script.js"
+            ],
+            "matches": [
+                "https://x.com/*",
+                "https://www.twitter.com/*"
+            ]
+        }
+    ],
+    "permissions": [
+        "sidePanel",
+        "contextMenus",
+        "storage"
+    ],
+    "host_permissions": [  
+    "https://x.com/*"  
+    ], 
+    "icons": {
+        "16": "images/twitter.png",
+        "48": "images/twitter.png",
+        "128": "images/twitter.png"
+    }
+}
