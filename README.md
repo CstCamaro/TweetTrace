@@ -39,7 +39,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you find TweetTrace helpful, consider buying me a coffee! Your support helps maintain and improve this project.  
 
-![Buy Me a Coffee QR Code](images/bmc_qr.png)  
+<p align="center">  
+  <img src="images/bmc_qr.png" alt="Buy Me a Coffee QR Code" width="200"/>  
+</p>  
 
 Thank you for your support!  
 
