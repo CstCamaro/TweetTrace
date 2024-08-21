@@ -23,17 +23,25 @@
 - Once installed, TweetTrace will automatically start recording tweets you visit.  
 - Use the browser action icon to access your recorded tweets and utilize the search and filtering options.  
 
-## Contributing  
+## Update Log  
 
-We welcome contributions from the community! Please feel free to submit issues, pull requests, and suggestions to improve TweetTrace.  
+Version 1.0.0 (2024-08-21):  
+- Initial release of TweetTrace  
+- Implemented local storage for tweet logs  
+- Added search functionality with result highlighting  
+- Basic tweet recording functionality  
 
 ## License  
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.  
 
-## Acknowledgements  
+## Support the Project  
 
-Thank you to all contributors and the open-source community for making this project possible.  
+If you find TweetTrace helpful, consider buying me a coffee! Your support helps maintain and improve this project.  
+
+![Buy Me a Coffee QR Code](images/bmc_qr.png)  
+
+Thank you for your support!  
 
 ---  
 

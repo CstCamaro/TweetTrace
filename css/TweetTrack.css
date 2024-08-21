@@ -7,6 +7,7 @@ body {
     line-height: 1.4;  
     font-size: 14px;  
 }  
+
 .topbar {  
     display: flex;  
     align-items: center;  
@@ -17,15 +18,28 @@ body {
     top: 0;  
     z-index: 1000;  
 }  
+
 .logo {  
+    display: flex;  
+    align-items: center;  
     font-size: 18px;  
     font-weight: bold;  
     color: #37352f;  
     margin-right: 16px;  
 }  
+.logo-link {  
+    text-decoration: none;  
+    color: inherit;  
+} 
+.logo img {  
+    height: 24px;
+    margin-right: 8px;
+}  
+
 .search-container {  
     flex-grow: 1;  
 }  
+
 .search-box {  
     width: 100%;  
     padding: 5px 8px;  
@@ -36,53 +50,82 @@ body {
     box-sizing: border-box;  
     background-color: #f7f7f7;  
 }  
+
 .search-box:focus {  
     background-color: #fff;  
     border-color: #b3b3b3;  
 }  
+
 .search-results {  
     max-width: 550px;  
     margin: 16px auto;  
     padding: 0 16px;  
 }  
+
 .result-item {  
     margin-bottom: 16px;  
     padding-bottom: 12px;  
     border-bottom: 1px solid #e0e0e0;  
 }  
+
 .result-item:last-child {  
     border-bottom: none;  
     margin-bottom: 0;  
     padding-bottom: 0;  
 }  
+
+.header-container {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: flex-start;  
+    margin-bottom: 8px;  
+}  
+
 .user-info {  
     display: flex;  
-    align-items: center;  
-    margin-bottom: 4px;  
+    align-items: flex-start;  
 }  
+
 .user-avatar {  
-    width: 40px;  
-    height: 40px;  
+    width: 48px;  
+    height: 48px;  
     border-radius: 50%;  
-    margin-right: 8px;  
+    margin-right: 12px;  
 }  
+
 .user-name-id {  
     display: flex;  
     flex-direction: column;  
 }  
+
 .user-name {  
     font-weight: 600;  
-    font-size: 14px;  
+    font-size: 15px;  
+    margin-bottom: 2px;  
 }  
+
 .user-id {  
     color: #787774;  
-    font-size: 12px;  
+    font-size: 13px;  
 }  
+
+.meta-info {  
+    display: flex;  
+    align-items: center;  
+    font-size: 13px;  
+    color: #657786;  
+}  
+
 .tweet-time {  
-    font-size: 12px;  
-    color: #787774;  
-    margin-bottom: 4px;  
+    margin-right: 8px;  
 }  
+
+.tweet-link {  
+    text-decoration: none;  
+    color: #1DA1F2;  
+    font-size: 16px;  
+}  
+
 .tweet-content {  
     font-size: 14px;  
     color: #37352f;  
@@ -91,4 +134,19 @@ body {
     overflow-wrap: break-word;  
     white-space: pre-wrap;  
     max-width: 100%;  
+}  
+
+.highlight-text {  
+    background-color: yellow;  
+    padding: 2px;  
+    border-radius: 2px;  
+}  
+
+.clickable {  
+    cursor: pointer;  
+}  
+
+.user-name, .user-id {  
+    text-decoration: none;  
+    color: inherit;  
 }

@@ -18,7 +18,7 @@ chrome.runtime.onInstalled.addListener(() => {
       title: 'Tweet Trace',  
       contexts: ['all']  
     });  
-    chrome.tabs.create({ url: 'html/page.html' });  
+    chrome.tabs.create({ url: 'html/about.html' });  
   });  
   
   chrome.contextMenus.onClicked.addListener((info, tab) => {  

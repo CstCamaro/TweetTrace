@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Tweet Trace",
+    "name": "TweetTrace",
     "version": "1.0",
-    "description": "TweetTrace is a free and open-source Chrome extension that records tweets you visit",
+    "description": "TweetTrace is a free and open-source Chrome extension that records tweets you visit.",
     "minimum_chrome_version": "116",
     "background": {
         "service_worker": "js/service-worker.js"
