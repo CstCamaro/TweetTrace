@@ -4,7 +4,7 @@
 
 ## Features  
 
-- **Local Storage**: All tweet data is stored locally on your device using your browser's localStorage, ensuring that your data never leaves your device.  
+- **Local Storage**: All tweet data is stored locally on your device using your browser's indexedDB, ensuring that your data never leaves your device.  
   
 - **Privacy-Focused**: TweetTrace does not analyze, extract, or share your data, giving you complete control and privacy over your information.  
 
