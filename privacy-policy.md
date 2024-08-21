@@ -25,4 +25,4 @@ If you have any questions or concerns about this Privacy Policy, please feel fre
 
 ## Access the Privacy Policy  
 
-You can access this Privacy Policy at: [https://github.com/CstCamaro/TweetTrace/privacy-policy.md](https://github.com/CstCamaro/TweetTrace/privacy-policy.md)
+You can access this Privacy Policy at: [https://github.com/CstCamaro/TweetTrace/main/privacy-policy.md](https://github.com/CstCamaro/TweetTrace/main/privacy-policy.md)
