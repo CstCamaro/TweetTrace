@@ -14,7 +14,7 @@
 
 ## 安装  
 
-### Chrome 网上应用店  
+### Chrome 网上应用店  (Chrome商店正在审核中)
 
 1. 访问 [Chrome 网上应用店](https://chrome.google.com/webstore) 直接安装扩展程序。  
 2. 在商店中搜索 "TweetTrace"。  
