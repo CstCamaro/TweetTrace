@@ -14,12 +14,24 @@
 
 ## Installation  
 
+### Chrome Web Store  
+
 1. Visit the [Chrome Web Store](https://chrome.google.com/webstore) to install the extension directly.  
 2. Search for "TweetTrace" in the store.  
 3. Click "Add to Chrome" to install the extension.  
 
+### Developer Mode  
+
+1. Download the TweetTrace source code from the GitHub repository.  
+2. Unzip the downloaded file to a location on your computer.  
+3. Open Google Chrome and navigate to `chrome://extensions/`.  
+4. Enable "Developer mode" by toggling the switch in the top right corner.  
+5. Click "Load unpacked" and select the unzipped TweetTrace folder.  
+6. The extension should now appear in your Chrome browser.  
+
 ## Usage  
 
+### Automatic Recording  
 - Once installed, TweetTrace will automatically start recording tweets you visit.  
 - Use the browser action icon to access your recorded tweets and utilize the search and filtering options.  
 
