@@ -14,7 +14,7 @@
 
 ## Installation  
 
-### Chrome Web Store (Chrome Web Store is under review.)
+### Chrome Web Store
 
 1. Visit the [Chrome Web Store](https://chrome.google.com/webstore) to install the extension directly.  
 2. Search for "TweetTrace" in the store.  
